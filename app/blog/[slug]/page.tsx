@@ -63,10 +63,16 @@ export default async function BlogDetailPage({ params }: BlogPageProps) {
     post.title,
     post.excerpt,
     ...(seoContent?.intro ?? []),
-    ...allSections.flatMap((section) => [section.heading, ...section.body]),
+    ...allSections.reduce<string[]>((items, section) => {
+      items.push(section.heading, ...section.body);
+      return items;
+    }, []),
     ...(seoContent?.checklist ?? []),
     ...actionSection,
-    ...(seoContent?.faqs.flatMap((item) => [item.question, item.answer]) ?? [])
+    ...(seoContent?.faqs.reduce<string[]>((items, item) => {
+      items.push(item.question, item.answer);
+      return items;
+    }, []) ?? [])
   ].join(" ");
   const wordCount = articleText.trim().split(/\s+/).length;
   const readingMinutes = Math.max(4, Math.ceil(wordCount / 175));

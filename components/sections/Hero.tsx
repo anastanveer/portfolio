@@ -82,10 +82,10 @@ export function Hero() {
         <motion.div initial={false} className="relative min-w-0 lg:pl-2">
           <div className="relative overflow-hidden rounded-2xl">
             <Image
-              src="/images/anas-premium-hero.webp"
+              src="/images/anas-premium-hero-1100.webp"
               alt="Premium full-stack developer command center visual"
-              width={1600}
-              height={900}
+              width={1100}
+              height={619}
               priority
               className="h-[18rem] w-full rounded-2xl object-cover sm:h-[24rem] lg:h-[30rem] xl:h-[33rem]"
             />

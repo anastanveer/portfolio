@@ -24,7 +24,7 @@ export default function ServicesPage() {
             eyebrow="Services"
             title="Services for Businesses That Need Web Problems Solved."
             description="Laravel applications, WordPress websites, Shopify stores, dashboards, APIs, ecommerce, ERP, SEO and speed work planned around the outcome your business needs."
-            image="/images/services-architecture.webp"
+            image="/images/services-architecture-760.webp"
             imageAlt="Premium service architecture for Laravel WordPress Shopify ERP and SEO"
             label="Laravel, WordPress, Shopify, dashboards, APIs, ecommerce, ERP and technical SEO."
             points={["Manual work to systems", "Slow websites to speed", "Plugin limits to custom logic", "Traffic to better leads"]}

@@ -21,7 +21,7 @@ export default function PortfolioPage() {
             eyebrow="Work / Portfolio"
             title="Portfolio Work Built Around Real Problems."
             description="Examples of Laravel platforms, WordPress websites, Shopify systems, dashboards, ecommerce, ERP and SEO-focused work where the goal was business clarity, speed, control and conversion."
-            image="/images/projects-suite.webp"
+            image="/images/projects-suite-760.webp"
             imageAlt="Premium portfolio project suite visual"
             label="Trading tools, dashboards, Shopify features, ERP systems, CMS builds and agency websites."
             points={["Business pain points", "Custom web systems", "Conversion fixes", "SEO-ready delivery"]}

@@ -22,7 +22,7 @@ export default function CaseStudiesPage() {
             eyebrow="Case Studies"
             title="Case Studies from Problem to Working Solution."
             description="Business-focused examples showing the problem, goal, strategy, features, technology, and outcome behind Laravel platforms, dashboards, Shopify logic and API delivery."
-            image="/images/projects-suite.webp"
+            image="/images/projects-suite-760.webp"
             imageAlt="Premium case study systems visual"
             label="Project planning, technical decisions, implementation and delivery."
             points={["Problem diagnosis", "Technical strategy", "Business impact", "Maintainable delivery"]}

@@ -37,7 +37,7 @@ export default function BlogPage() {
             eyebrow="Blog"
             title="Web Development Notes for Better Decisions."
             description="Practical thinking for business owners, agencies and recruiters choosing between Laravel, WordPress, Shopify, ecommerce, dashboards, speed, SEO and custom web systems."
-            image="/images/services-architecture.webp"
+            image="/images/services-architecture-760.webp"
             imageAlt="Premium web development writing and technical notes visual"
             label="Practical notes on Laravel, WordPress, Shopify, ecommerce, speed and SEO."
             points={["Platform decisions", "Conversion fixes", "Speed and SEO", "Business systems"]}

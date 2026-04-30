@@ -91,7 +91,7 @@ export function ContactForm() {
       const now = Date.now();
       const recentAttempts = JSON.parse(localStorage.getItem(rateLimitKey) || "[]")
         .filter((time: unknown) => typeof time === "number" && now - time < rateLimitWindow) as number[];
-      const lastAttempt = recentAttempts.at(-1) ?? 0;
+      const lastAttempt = recentAttempts.length > 0 ? recentAttempts[recentAttempts.length - 1] : 0;
 
       if (now - lastAttempt < minimumSubmitGap || recentAttempts.length >= maxSubmissionsPerWindow) {
         return true;

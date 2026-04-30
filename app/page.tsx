@@ -30,7 +30,7 @@ export default function HomePage() {
               description="I help companies replace slow pages, weak conversion flows, plugin limits, manual admin work, disconnected tools, and poor SEO foundations with practical Laravel, WordPress, Shopify, API, dashboard, ERP and performance solutions."
             />
             <VisualPanel
-              src="/images/services-architecture.webp"
+              src="/images/services-architecture-760.webp"
               alt="Premium Laravel WordPress Shopify business systems visual"
               label="Laravel, WordPress, Shopify, ERP, APIs, SEO and performance in one business-ready stack."
             />
