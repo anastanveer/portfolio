@@ -1,39 +1,61 @@
+<div align="center">
+
 # Anas Tanveer Portfolio
 
-Premium static portfolio website for **Anas Tanveer**, a Dubai-based full-stack web developer focused on Laravel, WordPress, Shopify, ecommerce, dashboards, ERP systems, API integrations, website speed, and SEO-ready business web solutions.
+### Premium Static Next.js Portfolio for a Dubai-Based Full-Stack Web Developer
 
-This project is built with **Next.js App Router**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, **Lenis**, and static export support for shared hosting platforms such as **Namecheap cPanel**.
+[![Website](https://img.shields.io/badge/Website-anastanveer.com-00d9ff?style=for-the-badge)](https://anastanveer.com)
+[![Role](https://img.shields.io/badge/Role-Full--Stack%20Developer-7df4c8?style=for-the-badge)](#)
+[![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20Laravel%20%7C%20WordPress%20%7C%20Shopify-a78bfa?style=for-the-badge)](#)
+[![Hosting](https://img.shields.io/badge/Hosting-Static%20Export%20%2B%20Namecheap-111827?style=for-the-badge)](#)
 
----
-
-## Production Goal
-
-The website is designed to work as a personal brand, portfolio, resume, service website, and lead-generation profile for:
-
-- Direct business clients
-- Recruiters
-- Agencies
-- Fiverr / freelance visitors
-- LinkedIn visitors
-- UAE, UK, Canada, and international project leads
-
-The site is fully static and does not require a Node.js server in production.
+</div>
 
 ---
 
-## Tech Stack
+## Overview
 
-- Next.js App Router
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-- Lenis smooth scroll
-- Lucide icons
-- Static export
-- JSON-LD schema
-- SEO metadata
-- FormSubmit contact form
-- Apache `.htaccess` security rules for shared hosting
+This repository contains the production portfolio website for **Anas Tanveer**, a Dubai-based full-stack web developer focused on business web problem solving, Laravel platforms, WordPress business websites, Shopify ecommerce stores, dashboards, ERP systems, API integrations, speed optimization, and SEO-ready web development.
+
+The site is built as a premium personal brand, resume, portfolio, service website, and lead-generation system for clients, recruiters, agencies, Fiverr visitors, LinkedIn visitors, and international project leads.
+
+The project is fully static-export compatible and can be deployed on **Namecheap shared hosting** without a Node.js server.
+
+---
+
+## Core Stack
+
+| Area | Technology |
+|---|---|
+| Framework | Next.js App Router |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion, Lenis |
+| Icons | lucide-react |
+| SEO | Metadata API, JSON-LD, sitemap, robots |
+| Forms | FormSubmit AJAX |
+| Hosting | Static export for cPanel / Namecheap |
+| Security | Apache `.htaccess` headers and rules |
+
+---
+
+## Key Features
+
+- Premium dark-first portfolio UI
+- Fully responsive mobile experience
+- Static export for shared hosting
+- SEO metadata for all pages
+- JSON-LD structured data
+- Blog pages with SEO-ready content
+- Portfolio filters and project case studies
+- Resume page with CV download
+- Contact form with email delivery
+- Honeypot spam protection
+- Client-side submit rate limiting
+- Google Search Console verification
+- Apache `.htaccess` security hardening
+- Optimized local images
+- No API routes, server actions, or dynamic SSR
 
 ---
 
@@ -45,7 +67,7 @@ Install dependencies:
 npm install
 ```
 
-Run local development server:
+Run the development server:
 
 ```bash
 npm run dev
@@ -57,19 +79,19 @@ Open:
 http://localhost:3000
 ```
 
-Do not open `.tsx`, `.js`, or source files directly in the browser. This is a Next.js project and must be served through the dev server or built export.
+Do not open `.tsx`, `.js`, `.css`, or source files directly in the browser. This is a Next.js application and must be served through the dev server or static build output.
 
 ---
 
 ## Production Build
 
-Generate the static production export:
+Run:
 
 ```bash
 npm run build
 ```
 
-The final deployable folder is:
+The deployable static site is generated in:
 
 ```text
 out/
@@ -79,7 +101,7 @@ Upload the **contents inside `out/`** to Namecheap `public_html`.
 
 Do not upload the `out` folder itself.
 
-Correct hosting structure:
+Correct production structure:
 
 ```text
 public_html/
@@ -96,23 +118,23 @@ public_html/
 
 ## Namecheap Deployment
 
-Recommended safe upload method:
+Recommended manual deployment flow:
 
 1. Run:
    ```bash
    npm run build
    ```
 2. Open the `out/` folder.
-3. Select all files and folders inside `out/`.
-4. Create a ZIP from those selected contents.
+3. Select everything inside `out/`.
+4. Create a ZIP from the selected files.
 5. Open Namecheap cPanel File Manager.
 6. Go to `public_html`.
-7. Enable “Show Hidden Files” so `.htaccess` is visible.
+7. Enable hidden files so `.htaccess` is visible.
 8. Upload the ZIP.
 9. Extract it directly inside `public_html`.
-10. Confirm that `public_html/index.html` exists.
+10. Confirm `public_html/index.html` exists.
 
-For future updates, repeat the same process after running `npm run build`.
+For every future update, rebuild and upload the latest `out/` contents.
 
 ---
 
@@ -121,8 +143,8 @@ For future updates, repeat the same process after running `npm run build`.
 This project is configured for static hosting:
 
 ```js
-output: "export"
-trailingSlash: true
+output: "export",
+trailingSlash: true,
 images: {
   unoptimized: true
 }
@@ -133,22 +155,25 @@ Do not add:
 - API routes
 - Server actions
 - Dynamic SSR
-- Node-only backend logic
+- Node-only backend code
+- Database dependency
 
-Any feature that requires backend processing should use an external service or be handled separately from the static site.
+External services should be used for any functionality that needs backend processing.
 
 ---
 
 ## Contact Form
 
-The contact form is static-hosting compatible and uses FormSubmit AJAX.
+The contact form works on static hosting using FormSubmit AJAX.
 
-Emails are sent to:
+Emails:
 
-- Primary: `info@anastanveer.com`
-- CC: `anastanveer557@gmail.com`
+| Type | Address |
+|---|---|
+| Primary | `info@anastanveer.com` |
+| CC | `anastanveer557@gmail.com` |
 
-Protection included:
+Included protection:
 
 - Required field validation
 - Email format validation
@@ -158,44 +183,40 @@ Protection included:
 - Disabled submit button while sending
 - Success and error messages
 
-Important:
-
-FormSubmit may send a first-time confirmation email to `info@anastanveer.com`. Confirm that email before expecting live submissions.
+Important: FormSubmit may send a first-time confirmation email to `info@anastanveer.com`. Confirm that email before expecting live submissions.
 
 ---
 
 ## SEO Setup
 
-Included SEO features:
+Included:
 
-- Metadata for all main pages
+- Page-level titles and descriptions
 - Canonical URLs
-- Open Graph tags
-- Twitter card tags
-- Robots file
-- Sitemap file
-- JSON-LD structured data
+- Open Graph metadata
+- Twitter card metadata
+- `robots.txt`
+- `sitemap.xml`
+- JSON-LD schema
 - Person schema
 - ProfessionalService schema
 - LocalBusiness schema
 - WebSite schema
 - Breadcrumb schema
-- Blog schema where needed
-- Google Search Console verification meta tag
+- Blog schema
+- Google Search Console verification
 
-Google verification:
+Google verification tag:
 
 ```html
 <meta name="google-site-verification" content="gllYNE1pcbGLwfP2PMahnrbVB6fcVfM0x0gbbsiBSCg" />
 ```
 
-After deployment, verify the domain in Google Search Console.
-
 ---
 
 ## Security Setup
 
-The production export includes `.htaccess` rules for Apache/shared hosting:
+The static export includes `.htaccess` rules for Apache shared hosting:
 
 - HTTPS redirect
 - Directory listing disabled
@@ -211,45 +232,11 @@ The production export includes `.htaccess` rules for Apache/shared hosting:
 - Static asset caching
 - Compression rules
 
-Make sure `.htaccess` is uploaded to `public_html`.
+Make sure `.htaccess` is present inside `public_html`.
 
 ---
 
-## Performance Notes
-
-The site is optimized for static delivery:
-
-- Static HTML export
-- Optimized image formats
-- Lazy-loaded images
-- Responsive image sizing
-- Lightweight client-side scripts
-- No backend dependency
-- No API route dependency
-- Cache headers for static assets
-
-After upload, test:
-
-- Homepage
-- Portfolio page
-- Case Studies page
-- Resume page
-- Blog pages
-- Contact form
-- Mobile layout
-- Search Console verification
-
----
-
-## Important URLs
-
-Production domain:
-
-```text
-https://anastanveer.com
-```
-
-Key routes:
+## Important Routes
 
 ```text
 /
@@ -266,24 +253,27 @@ Key routes:
 
 ---
 
-## Maintenance Workflow
+## Quality Checks
 
-For any update:
+Before deployment:
 
 ```bash
 npm run typecheck
 npm run build
 ```
 
-Then upload the latest `out/` contents to `public_html`.
+Then verify:
 
-Recommended before upload:
-
-- Check there are no console errors locally
-- Check contact form fields
-- Check mobile menu
-- Check important pages
-- Confirm `.htaccess` is present in `out/`
+- Homepage loads correctly
+- Navigation works
+- Portfolio filters work
+- Blog pages open
+- Resume CV download works
+- Contact form submits
+- Mobile menu works
+- `.htaccess` exists in `out/`
+- `robots.txt` exists in `out/`
+- `sitemap.xml` exists in `out/`
 
 ---
 
@@ -293,8 +283,8 @@ Recommended before upload:
 Full-Stack Web Developer  
 Dubai, UAE  
 
-Portfolio: [https://anastanveer.com](https://anastanveer.com)  
-Company: [https://arsdeveloper.co.uk](https://arsdeveloper.co.uk)  
-LinkedIn: [https://www.linkedin.com/in/anas-fullstackdev/](https://www.linkedin.com/in/anas-fullstackdev/)  
-Email: `info@anastanveer.com`  
-WhatsApp: `+971 542435418`
+- Website: [https://anastanveer.com](https://anastanveer.com)
+- Company: [https://arsdeveloper.co.uk](https://arsdeveloper.co.uk)
+- LinkedIn: [https://www.linkedin.com/in/anas-fullstackdev/](https://www.linkedin.com/in/anas-fullstackdev/)
+- Email: `info@anastanveer.com`
+- WhatsApp: `+971 542435418`
