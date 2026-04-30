@@ -114,7 +114,6 @@ export function pageMetadata({
       images: [imageUrl]
     },
     verification: {
-      google: "gllYNE1pcbGLwfP2PMahnrbVB6fcVfM0x0gbbsiBSCg",
       other: {
         "geo.region": "AE-DU",
         "geo.placename": "Dubai",
