@@ -8,7 +8,7 @@ import { absoluteUrl } from "@/lib/utils";
 import { jsonLdForPage, pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Blog | Laravel, WordPress, Shopify & SEO Notes",
+  title: "Blog | Laravel, WordPress, Shopify and SEO Insights",
   description: "Decision-focused articles on Laravel, WordPress, Shopify, website speed, technical SEO, ecommerce, dashboards and business systems.",
   path: "/blog"
 });

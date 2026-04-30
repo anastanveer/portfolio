@@ -6,7 +6,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { jsonLdForPage, pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Portfolio | Laravel, WordPress, Shopify Work",
+  title: "Portfolio | Laravel, WordPress, Shopify Projects Dubai",
   description: "Portfolio of Laravel, WordPress, Shopify, dashboard, ecommerce, ERP, SEO, API and automation problems solved by Anas Tanveer.",
   path: "/portfolio"
 });

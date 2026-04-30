@@ -7,7 +7,7 @@ import { pricing } from "@/data/site";
 import { jsonLdForPage, pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Pricing | Laravel, WordPress & Shopify Packages",
+  title: "Pricing | Laravel, WordPress, Shopify Web Packages Dubai",
   description: "Pricing for website, ecommerce, Laravel platform, dashboard, ERP, Shopify, WordPress, SEO, speed and support problems.",
   path: "/pricing"
 });

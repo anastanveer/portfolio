@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display", display: "swap" });
 
 export const metadata: Metadata = pageMetadata({
-  title: "Anas Tanveer | Web Problem Solver Dubai",
+  title: "Anas Tanveer | Full-Stack Laravel Developer Dubai",
   description:
     "Dubai web problem solver for Laravel, WordPress, Shopify, dashboards, APIs, ecommerce, speed and SEO-ready business systems.",
   path: "/"

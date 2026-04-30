@@ -9,7 +9,7 @@ import { services } from "@/data/site";
 import { jsonLdForPage, pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Services | Laravel, WordPress & Shopify Dubai",
+  title: "Services | Laravel, WordPress, Shopify Developer Dubai",
   description: "Web problem solving in Dubai for Laravel apps, WordPress sites, Shopify stores, dashboards, ERP, API integrations, SEO and speed.",
   path: "/services"
 });
