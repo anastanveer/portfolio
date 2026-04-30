@@ -196,11 +196,6 @@ Included SEO features:
 - Blog schema where needed
 - Google Search Console verification meta tag
 
-### Google Verification Tag
-
-```html
-<meta name="google-site-verification" content="gllYNE1pcbGLwfP2PMahnrbVB6fcVfM0x0gbbsiBSCg" />
-```
 
 After deployment, verify the domain in Google Search Console.
 
