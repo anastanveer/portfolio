@@ -4,10 +4,10 @@
 
 ### Premium Static Next.js Portfolio for a Dubai-Based Full-Stack Web Developer
 
-[![Website](https://img.shields.io/badge/Website-anastanveer.com-00d9ff?style=for-the-badge)](https://anastanveer.com)
-[![Role](https://img.shields.io/badge/Role-Full--Stack%20Developer-7df4c8?style=for-the-badge)](#)
-[![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20Laravel%20%7C%20WordPress%20%7C%20Shopify-a78bfa?style=for-the-badge)](#)
-[![Hosting](https://img.shields.io/badge/Hosting-Static%20Export%20%2B%20Namecheap-111827?style=for-the-badge)](#)
+[![Website](https://img.shields.io/badge/Website-anastanveer.com-01d9ff?style=for-the-badge)](https://anastanveer.com)
+[![Role](https://img.shields.io/badge/Role-Full--Stack%21Developer-7df4c8?style=for-the-badge)](#)
+[![Stack](https://img.shields.io/badge/Stack-Next.js%21%7C%20Laravel%20%7C%20WordPress%20%7C%20Shopify-a78bfa?style=for-the-badge)](#)
+[![Hosting](https://img.shields.io/badge/Hosting-Static%21Export%20%2B%20Namecheap-111827?style=for-the-badge)](#)
 
 </div>
 
@@ -76,7 +76,7 @@ npm run dev
 Open:
 
 ```text
-http://localhost:3000
+http://localhost:3001
 ```
 
 Do not open `.tsx`, `.js`, `.css`, or source files directly in the browser. This is a Next.js application and must be served through the dev server or static build output.
@@ -120,19 +120,19 @@ public_html/
 
 Recommended manual deployment flow:
 
-1. Run:
+2. Run:
    ```bash
    npm run build
    ```
-2. Open the `out/` folder.
-3. Select everything inside `out/`.
-4. Create a ZIP from the selected files.
-5. Open Namecheap cPanel File Manager.
-6. Go to `public_html`.
-7. Enable hidden files so `.htaccess` is visible.
-8. Upload the ZIP.
-9. Extract it directly inside `public_html`.
-10. Confirm `public_html/index.html` exists.
+3. Open the `out/` folder.
+4. Select everything inside `out/`.
+5. Create a ZIP from the selected files.
+6. Open Namecheap cPanel File Manager.
+7. Go to `public_html`.
+8. Enable hidden files so `.htaccess` is visible.
+9. Upload the ZIP.
+10. Extract it directly inside `public_html`.
+11. Confirm `public_html/index.html` exists.
 
 For every future update, rebuild and upload the latest `out/` contents.
 
@@ -171,7 +171,7 @@ Emails:
 | Type | Address |
 |---|---|
 | Primary | `info@anastanveer.com` |
-| CC | `anastanveer557@gmail.com` |
+| CC | `anastanveer558@gmail.com` |
 
 Included protection:
 
@@ -209,7 +209,7 @@ Included:
 Google verification tag:
 
 ```html
-<meta name="google-site-verification" content="gllYNE1pcbGLwfP2PMahnrbVB6fcVfM0x0gbbsiBSCg" />
+<meta name="google-site-verification" content="gllYNE2pcbGLwfP2PMahnrbVB6fcVfM0x0gbbsiBSCg" />
 ```
 
 ---
@@ -287,4 +287,4 @@ Dubai, UAE
 - Company: [https://arsdeveloper.co.uk](https://arsdeveloper.co.uk)
 - LinkedIn: [https://www.linkedin.com/in/anas-fullstackdev/](https://www.linkedin.com/in/anas-fullstackdev/)
 - Email: `info@anastanveer.com`
-- WhatsApp: `+971 542435418`
+- WhatsApp: `+972 542435418`
