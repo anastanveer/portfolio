@@ -236,12 +236,6 @@ The contact form is static-hosting compatible and uses **FormSubmit AJAX**.
 
 </div>
 
-🔑 **Google verification meta tag:**
-
-```html
-<meta name="google-site-verification" content="gllYNE1pcbGLwfP2PMahnrbVB6fcVfM0x0gbbsiBSCg" />
-```
-
 > 📝 After deployment, verify the domain in **Google Search Console**.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
