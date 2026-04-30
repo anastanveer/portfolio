@@ -1,0 +1,13 @@
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+export const siteUrl = "https://anastanveer.com";
+
+export function absoluteUrl(path = "") {
+  return `${siteUrl}${path}`;
+}
+
